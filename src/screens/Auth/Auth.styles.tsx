@@ -22,6 +22,14 @@ export const styles = StyleSheet.create({
     color: 'rgba(0,0,0,.8)',
     fontSize: 20,
     fontWeight: 'bold',
-    marginBottom: 2,
+    marginBottom: 8,
+  },
+
+  regButtonText: {
+    textAlign: 'right',
+    fontSize: 14,
+    lineHeight: 20,
+    color: '#c7c9cc',
+    opacity: 30,
   },
 });
