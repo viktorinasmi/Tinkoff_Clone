@@ -11,8 +11,10 @@
 import React from 'react';
 import {AuthProvider} from '@src/providers/AuthProvider';
 import {Navigation} from '@src/components/Navigation';
+import {LogBox} from 'react-native';
 
-const App = () => {
+export const App = () => {
+  console.log('App');
   return (
     <AuthProvider>
       <Navigation />
@@ -20,4 +22,4 @@ const App = () => {
   );
 };
 
-export default App;
+LogBox.ignoreAllLogs();
