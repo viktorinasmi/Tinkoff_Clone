@@ -20,8 +20,8 @@ const firebaseConfig = {
   projectId: 'tinkoff-copy-26665',
   storageBucket: 'tinkoff-copy-26665.appspot.com',
   messagingSenderId: '104404877619',
-  appId: '1:104404877619:web:a0e0bd02d057aa952bbe46',
-  measurementId: 'G-KNDLLGJHCH',
+  appId: '1:104404877619:web:4cc839af677a4a6d2bbe46',
+  measurementId: 'G-EBG35ECQ1Y',
 };
 
 // Initialize Firebase
@@ -29,13 +29,40 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 export const auth = getAuth();
-
 export const register = (email: string, password: string) =>
-  createUserWithEmailAndPassword(auth, email, password);
+  createUserWithEmailAndPassword(auth, email, password)
+    .then(userCredential => {
+      console.log(userCredential);
+      // Signed in
+      const user = userCredential.user;
+    })
+    .catch(error => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+    });
 
 export const login = (email: string, password: string) =>
-  signInWithEmailAndPassword(auth, email, password);
+  signInWithEmailAndPassword(auth, email, password)
+    .then(userCredential => {
+      // Signed in
+      const user = userCredential.user;
+      // ...
+    })
+    .catch(error => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+    });
 
 export const logout = () => signOut(auth);
 
 export const db = getFirestore();
+
+// export const register = (email: string, password: string) =>
+//   createUserWithEmailAndPassword(auth, email, password);
+//
+// export const login = (email: string, password: string) =>
+//   signInWithEmailAndPassword(auth, email, password);
+//
+// export const logout = () => signOut(auth);
+//
+// export const db = getFirestore();

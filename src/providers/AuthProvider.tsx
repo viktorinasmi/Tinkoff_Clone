@@ -23,7 +23,7 @@ export const AuthProvider: FC<any> = ({children}) => {
     setIsLoading(true);
     try {
       // eslint-disable-next-line @typescript-eslint/no-shadow
-      const {user} = await register(email, password);
+      // const {user} = await register(email, password);
 
       await addDoc(collection(db, 'users'), {
         _id: user.uid,
@@ -31,6 +31,7 @@ export const AuthProvider: FC<any> = ({children}) => {
       });
     } catch (error) {
       Alert.alert('Error reg:', error);
+      console.log(error);
     } finally {
       setIsLoading(false);
     }

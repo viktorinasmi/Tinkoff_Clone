@@ -1,10 +1,10 @@
-import {Pressable, Text, View} from 'react-native';
 import {FC, useState} from 'react';
-import {styles} from '@src/screens/Auth/Auth.styles';
+import {Pressable, Text, View} from 'react-native';
 import {useAuth} from '@src/hooks/useAuth';
 import {Loader} from '@src/components/ui/Loader';
 import {Field} from '@src/components/ui/Field';
 import {Button} from '@src/components/ui/Button';
+import {styles} from '@src/screens/Auth/Auth.styles';
 
 interface IData {
   email: string;
@@ -12,12 +12,22 @@ interface IData {
 }
 
 export const Auth: FC = () => {
-  const {isLoading} = useAuth();
+  const {isLoading, login, register} = useAuth();
 
   const [data, setData] = useState({} as IData);
   const [isReg, setIsReg] = useState(false);
 
-  const authHandler = () => {};
+  const authHandler = async () => {
+    const {email, password} = data;
+
+    if (isReg) {
+      await register(email, password);
+    } else {
+      await login(email, password);
+
+      setData({} as IData);
+    }
+  };
 
   return (
     <View style={styles.container}>

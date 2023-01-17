@@ -14,7 +14,6 @@ import {Navigation} from '@src/components/Navigation';
 import {LogBox} from 'react-native';
 
 export const App = () => {
-  console.log('App');
   return (
     <AuthProvider>
       <Navigation />
@@ -22,4 +21,4 @@ export const App = () => {
   );
 };
 
-LogBox.ignoreAllLogs();
+// LogBox.ignoreAllLogs();
