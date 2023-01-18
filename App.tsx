@@ -11,7 +11,6 @@
 import React from 'react';
 import {AuthProvider} from '@src/providers/AuthProvider';
 import {Navigation} from '@src/components/Navigation';
-import {LogBox} from 'react-native';
 
 export const App = () => {
   return (

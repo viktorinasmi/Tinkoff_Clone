@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     backgroundColor: '#fff',
-    paddingTop: 16,
+    marginTop: 48,
+    padding: 16,
   },
 });

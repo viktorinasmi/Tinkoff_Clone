@@ -15,4 +15,8 @@ export const styles = StyleSheet.create({
     color: 'rgba(0,0,0,.8)',
     textAlign: 'center',
   },
+
+  buttonSecondary: {
+    backgroundColor: '#D6D8D8',
+  },
 });

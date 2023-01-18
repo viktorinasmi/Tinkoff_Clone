@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
 
   text: {
     color: '#fff',
-    fontWeight: '500',
+    fontWeight: 'bold',
   },
   textSmall: {
     fontSize: 18,
