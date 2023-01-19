@@ -7,11 +7,12 @@ import {Stories} from '@src/components/ui/Stories';
 export const Home = () => {
   const {logout} = useAuth();
   return (
-    <View>
+    <View style={{flex: 1}}>
       <Text>Auth</Text>
       <Button onPress={() => logout()} title={'кнопка'} />
       <Header />
       <Stories />
+      <Text>home</Text>
     </View>
   );
 };
