@@ -8,7 +8,7 @@ import {useProfile} from '@src/hooks/useProfile';
 import {Loader} from '@src/components/ui/Loader';
 
 export const Header = () => {
-  const {isLoading} = useProfile();
+  const {isLoading, name} = useProfile();
   const {navigate} = useNavigation();
 
   // @ts-ignore
@@ -16,13 +16,11 @@ export const Header = () => {
     <Loader />
   ) : (
     <Padding>
-      {/*<Avatar name={name} />*/}
-      <Avatar name={'Vika'} />
+      <Avatar name={name} />
       <TouchableOpacity
         style={styles.touchableAvatar}
         onPress={() => navigate('Profile')}>
-        {/*<Text style={styles.headerText}>{name}</Text>*/}
-        <Text style={styles.headerText}>{'Vika'}</Text>
+        <Text style={styles.headerText}>{name}</Text>
         <Image
           style={styles.headerIcon}
           source={require('../../../../public/icons/chevron_right.png')}

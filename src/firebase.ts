@@ -30,28 +30,30 @@ const analytics = getAnalytics(app);
 
 export const auth = getAuth();
 export const register = (email: string, password: string) =>
-  createUserWithEmailAndPassword(auth, email, password)
-    .then(userCredential => {
-      console.log(userCredential);
-      // Signed in
-      const user = userCredential.user;
-    })
-    .catch(error => {
-      const errorCode = error.code;
-      const errorMessage = error.message;
-    });
+  createUserWithEmailAndPassword(auth, email, password);
+// .then(userCredential => {
+//   console.log(userCredential);
+//   // Signed in
+//   const user = userCredential.user;
+//   console.log('user firebase.ts === ', user);
+//   return user;
+// })
+// .catch(error => {
+//   const errorCode = error.code;
+//   const errorMessage = error.message;
+// });
 
 export const login = (email: string, password: string) =>
-  signInWithEmailAndPassword(auth, email, password)
-    .then(userCredential => {
-      // Signed in
-      const user = userCredential.user;
-      // ...
-    })
-    .catch(error => {
-      const errorCode = error.code;
-      const errorMessage = error.message;
-    });
+  signInWithEmailAndPassword(auth, email, password);
+// .then(userCredential => {
+//   // Signed in
+//   const user = userCredential.user;
+//   // ...
+// })
+// .catch(error => {
+//   const errorCode = error.code;
+//   const errorMessage = error.message;
+// });
 
 export const logout = () => signOut(auth);
 
