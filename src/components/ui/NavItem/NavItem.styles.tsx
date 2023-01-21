@@ -5,5 +5,12 @@ export const styles = StyleSheet.create({
     width: '20%',
     alignItems: 'center',
   },
-  icon: {},
+  menu: {
+    color: 'rgb(107, 114, 128)',
+    fontSize: 20,
+    lineHeight: 28,
+  },
+  menuActive: {
+    color: 'rgb(59, 130, 246)',
+  },
 });

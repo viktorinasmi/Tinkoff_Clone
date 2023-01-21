@@ -8,9 +8,13 @@ interface INavItem {
 }
 
 export const NavItem = ({item}: INavItem) => {
+  const isActive = false;
   return (
     <Pressable style={styles.container} onPress={null}>
-      <FontAwesome5 name={item.iconName} style={styles.icon} />
+      <FontAwesome5
+        name={item.iconName}
+        style={[styles.menu, isActive && styles.menuActive]}
+      />
     </Pressable>
   );
 };
