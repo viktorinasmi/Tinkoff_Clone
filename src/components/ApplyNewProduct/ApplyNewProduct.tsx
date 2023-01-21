@@ -1,5 +1,4 @@
 import {Alert, View} from 'react-native';
-import {Padding} from '@src/components/ui/Padding';
 import {styles} from './ApplyNewProduct.styles';
 import {Button} from '@src/components/ui/Button';
 import {asyncAlert} from '@src/components/utils/asyncAlert';
@@ -50,9 +49,9 @@ export const ApplyNewProduct = () => {
 
   return (
     <View style={styles.container}>
-      <Padding>
+      <View>
         <Button onPress={registerHandler} title="Apply for a new product" />
-      </Padding>
+      </View>
     </View>
   );
 };

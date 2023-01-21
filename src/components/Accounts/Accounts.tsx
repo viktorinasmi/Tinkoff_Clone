@@ -1,6 +1,5 @@
 import {Text, View} from 'react-native';
 import {useAccounts} from '@src/hooks/useAccounts';
-import {Padding} from '@src/components/ui/Padding';
 import {Loader} from '@src/components/ui/Loader';
 import {Fragment} from 'react';
 import {styles} from './Accounts.styles';
@@ -8,9 +7,10 @@ import {AccountItem} from '@src/components/ui/AccountItem';
 
 export const Accounts = () => {
   const {accounts, isLoading} = useAccounts();
+  console.log(accounts);
 
   return (
-    <Padding>
+    <View style={styles.container}>
       {isLoading ? (
         <Loader />
       ) : accounts.length ? (
@@ -23,6 +23,6 @@ export const Accounts = () => {
       ) : (
         <Text>You don't have cards</Text>
       )}
-    </Padding>
+    </View>
   );
 };

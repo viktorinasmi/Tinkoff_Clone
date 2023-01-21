@@ -1,7 +1,6 @@
 import React from 'react';
-import {Padding} from '@src/components/ui/Padding';
 import {Avatar} from '@src/components/ui/Avatar';
-import {TouchableOpacity, Text, Image} from 'react-native';
+import {TouchableOpacity, Text, Image, View} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {styles} from './Header.styles';
 import {useProfile} from '@src/hooks/useProfile';
@@ -15,7 +14,7 @@ export const Header = () => {
   return isLoading ? (
     <Loader />
   ) : (
-    <Padding>
+    <View style={styles.container}>
       <Avatar name={name} />
       <TouchableOpacity
         style={styles.touchableAvatar}
@@ -26,6 +25,6 @@ export const Header = () => {
           source={require('../../../../public/icons/chevron_right.png')}
         />
       </TouchableOpacity>
-    </Padding>
+    </View>
   );
 };

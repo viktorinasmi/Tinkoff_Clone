@@ -1,6 +1,12 @@
 import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
+  container: {
+    paddingHorizontal: 8,
+    marginTop: 16,
+    justifyContent: 'flex-start',
+    flexDirection: 'row',
+  },
   touchableAvatar: {
     flexDirection: 'row',
     alignItems: 'center',
