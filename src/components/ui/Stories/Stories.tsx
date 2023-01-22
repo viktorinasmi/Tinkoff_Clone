@@ -7,7 +7,6 @@ import {styles} from './Stories.styles';
 
 export const Stories = () => {
   const {isLoading, stories} = useStories();
-  console.log('stories ===', stories);
 
   return (
     <View style={styles.component}>

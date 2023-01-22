@@ -3,7 +3,6 @@ import {Stories} from '@src/components/ui/Stories';
 import {Accounts} from '@src/components/Accounts';
 import {ApplyNewProduct} from '@src/components/ApplyNewProduct';
 import {Layout} from '@src/components/Layout';
-import {Footer} from '@src/components/Footer';
 
 export const Home = () => {
   return (
@@ -12,7 +11,6 @@ export const Home = () => {
       <Stories />
       <Accounts />
       <ApplyNewProduct />
-      <Footer />
     </Layout>
   );
 };
