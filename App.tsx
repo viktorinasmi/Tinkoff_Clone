@@ -12,7 +12,7 @@ import React from 'react';
 import {AuthProvider} from '@src/providers/AuthProvider';
 import {Navigation} from '@src/components/Navigation';
 import {DataProvider} from '@src/providers/DataProvider';
-import {StoryContainer} from '@src/components/ui/StoryContainer';
+import {StoryContainer} from '@src/components/ui/Stories/StoryContainer';
 
 export const App = () => {
   return (

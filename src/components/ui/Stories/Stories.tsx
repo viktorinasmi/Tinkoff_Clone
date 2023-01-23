@@ -2,7 +2,7 @@ import React from 'react';
 import {ScrollView, View} from 'react-native';
 import {useStories} from '@src/hooks/useStories';
 import {Loader} from '@src/components/ui/Loader';
-import {StoryItem} from '@src/components/ui/StoryItem';
+import {StoryItem} from '@src/components/ui/Stories/StoryItem';
 import {styles} from './Stories.styles';
 
 export const Stories = () => {

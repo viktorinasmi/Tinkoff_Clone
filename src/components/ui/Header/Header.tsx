@@ -19,6 +19,7 @@ export const Header = () => {
       <TouchableOpacity
         style={styles.touchableAvatar}
         onPress={() => {
+          // @ts-ignore
           navigate('Profile');
         }}>
         <Text style={styles.headerText}>{name}</Text>

@@ -2,13 +2,13 @@ import React from 'react';
 import {Text, View} from 'react-native';
 import {styles} from './SubHeading.styles';
 
-interface IHeading {
+interface ISubHeading {
   text: string;
 }
-export const SubHeading = ({text}: IHeading) => {
+export const SubHeading = ({text}: ISubHeading) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>{text}</Text>;
+      <Text style={styles.text}>{text}</Text>
     </View>
   );
 };

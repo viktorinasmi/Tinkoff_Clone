@@ -1,6 +1,6 @@
 import {Layout} from '@src/components/Layout';
 import {Heading} from '@src/components/ui/Heading';
-import {Contacts} from '@src/components/ui/Contacts/Contacts';
+import {Contacts} from '@src/components/ui/Contacts';
 import {Other} from '@src/components/ui/Other';
 
 export const Payments = () => {

@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
-    marginVertical: 32,
+    marginVertical: 16,
   },
   isLoaderScroll: {
     marginTop: 20,

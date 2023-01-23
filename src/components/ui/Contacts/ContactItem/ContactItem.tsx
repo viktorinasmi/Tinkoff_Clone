@@ -5,6 +5,7 @@ import {styles} from './ContactItem.styles';
 import {Avatar} from '@src/components/ui/Avatar';
 
 export const ContactItem: FC<{contact: IContact}> = ({contact}) => {
+  console.log('contactitem===', contact.displayName);
   return (
     <Pressable style={styles.container}>
       <Avatar name={contact.displayName} size="large" />
