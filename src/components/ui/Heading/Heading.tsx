@@ -1,6 +1,5 @@
 import {Text} from 'react-native';
 import {styles} from './Heading.styles';
-import {Padding} from '@src/components/ui/Padding';
 
 interface IHeading {
   text: string;

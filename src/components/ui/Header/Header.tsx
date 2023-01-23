@@ -18,7 +18,9 @@ export const Header = () => {
       <Avatar name={name} />
       <TouchableOpacity
         style={styles.touchableAvatar}
-        onPress={() => navigate('Profile')}>
+        onPress={() => {
+          navigate('Profile');
+        }}>
         <Text style={styles.headerText}>{name}</Text>
         <Image
           style={styles.headerIcon}
