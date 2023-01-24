@@ -9,7 +9,7 @@ interface IIcon extends Pick<IFooterItem, 'iconName'> {}
 export const Icon: FC<IIcon> = ({iconName}) => {
   return (
     <View style={styles.container}>
-      <FontAwesome5 name={iconName} size={19} style={styles.icon} />
+      <FontAwesome5 name={iconName} size={16} style={styles.icon} />
     </View>
   );
 };
