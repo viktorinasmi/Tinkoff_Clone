@@ -5,6 +5,6 @@ export const styles = StyleSheet.create({
     marginVertical: 16,
   },
   isLoaderScroll: {
-    marginTop: 20,
+    marginTop: 8,
   },
 });
