@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
 import {TypeCurrency} from '@src/components/Accounts/types';
 import {styles} from './Currency.styles';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
