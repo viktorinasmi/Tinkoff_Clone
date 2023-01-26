@@ -2,37 +2,37 @@ import {IService} from '@src/screens/Services/types';
 
 export const services: IService[] = [
   {
-    iconName: 'movie',
+    iconName: 'film',
     title: 'Cinema',
     percent: 25,
   },
   {
-    iconName: 'theater-comedy',
+    iconName: 'theater-masks',
     title: 'Theater',
     percent: 15,
   },
   {
-    iconName: 'music-note',
+    iconName: 'music',
     title: 'Concerts',
     percent: 35,
   },
   {
-    iconName: 'sports-football',
+    iconName: 'football-ball',
     title: 'Football',
     percent: 35,
   },
   {
-    iconName: 'inventory',
+    iconName: 'truck-moving',
     title: 'Goods',
     percent: 13,
   },
   {
-    iconName: 'local-florist',
+    iconName: 'spa',
     title: 'Flowers',
     percent: 12,
   },
   {
-    iconName: 'library-books',
+    iconName: 'book',
     title: 'Books',
     percent: 20,
   },
@@ -42,17 +42,77 @@ export const services: IService[] = [
     percent: 30,
   },
   {
-    iconName: 'fitness-center',
+    iconName: 'walking',
     title: 'Workouts',
     percent: 13,
   },
   {
-    iconName: 'pets',
+    iconName: 'paw',
     title: 'Veterinarians',
     percent: 13,
   },
   {
-    iconName: 'psychology',
+    iconName: 'smile-wink',
+    title: 'Psychologists',
+    percent: 20,
+  },
+  {
+    iconName: 'shopping-bag',
+    title: 'Shopping',
+    percent: 11,
+  },
+  {
+    iconName: 'film',
+    title: 'Cinema',
+    percent: 25,
+  },
+  {
+    iconName: 'theater-masks',
+    title: 'Theater',
+    percent: 15,
+  },
+  {
+    iconName: 'music',
+    title: 'Concerts',
+    percent: 35,
+  },
+  {
+    iconName: 'football-ball',
+    title: 'Football',
+    percent: 35,
+  },
+  {
+    iconName: 'truck-moving',
+    title: 'Goods',
+    percent: 13,
+  },
+  {
+    iconName: 'spa',
+    title: 'Flowers',
+    percent: 12,
+  },
+  {
+    iconName: 'book',
+    title: 'Books',
+    percent: 20,
+  },
+  {
+    iconName: 'gavel',
+    title: 'Lawyers',
+    percent: 30,
+  },
+  {
+    iconName: 'walking',
+    title: 'Workouts',
+    percent: 13,
+  },
+  {
+    iconName: 'paw',
+    title: 'Veterinarians',
+    percent: 13,
+  },
+  {
+    iconName: 'smile-wink',
     title: 'Psychologists',
     percent: 20,
   },
