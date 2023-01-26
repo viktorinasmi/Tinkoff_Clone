@@ -13,7 +13,6 @@ export const ServiceItem: FC<{service: IService}> = ({service}) => {
     <View style={styles.container}>
       <View style={styles.itemContainer}>
         <LinearGradient
-          // colors={['#FF4270', '#FE0040']}
           colors={getRandomGradient()}
           style={styles.itemGradient}>
           <Percent percent={service.percent} />

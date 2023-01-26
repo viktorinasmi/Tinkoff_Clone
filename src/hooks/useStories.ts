@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import {IStory} from '@src/components/ui/Stories/type';
-import {collection, onSnapshot, query, orderBy} from 'firebase/firestore';
+import {collection, onSnapshot, query} from 'firebase/firestore';
 import {db} from '@src/firebase';
 
 export const useStories = () => {
