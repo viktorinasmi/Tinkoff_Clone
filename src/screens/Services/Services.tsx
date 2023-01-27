@@ -10,7 +10,7 @@ export const Services = () => {
       <Text style={styles.text}>Moscow</Text>
       <View style={styles.containerItem}>
         {services.map(service => (
-          <ServiceItem key={service.title} service={service} />
+          <ServiceItem key={service.title + Date.now()} service={service} />
         ))}
       </View>
     </Layout>

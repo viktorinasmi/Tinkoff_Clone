@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'flex-end',
     alignSelf: 'flex-start',
-    marginVertical: 8,
+    marginVertical: 4,
     paddingVertical: 8,
     paddingHorizontal: 12,
   },

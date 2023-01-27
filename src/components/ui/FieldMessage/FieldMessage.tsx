@@ -8,7 +8,7 @@ import {db} from '@src/firebase';
 
 export const FieldMessage = () => {
   const {user} = useAuth();
-  const [message, setMessage] = useState(' ');
+  const [message, setMessage] = useState('');
 
   const handleSendMessage = async () => {
     try {
@@ -35,7 +35,7 @@ export const FieldMessage = () => {
         showSoftInputOnFocus={false}
       />
       <Pressable onPress={handleSendMessage}>
-        <FontAwesome5 name="arrow-circle-up" size={36} style={styles.icon} />
+        <FontAwesome5 name="arrow-up" size={24} style={styles.icon} />
       </Pressable>
     </View>
   );
