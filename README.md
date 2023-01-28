@@ -43,25 +43,25 @@
 ## About The Project
 <p float="left" align="middle">
 <h3 >Screen Menu</h3>
-<img height="480" src="README/home.png" alt="homePage"/>
+<img align="center" height="950" src="README/home.png" alt="homePage"/>
 <h4 >Add new products(credit card)</h4>
-<img height="480" src="README/apply_new_product.png" alt="applyNewProducts"/>
+<img align="center" height="950" src="README/apply_new_product.png" alt="applyNewProducts"/>
 <h4 >Component stories</h4>
-<img height="480" src="README/stories.png" alt="Stories"/>
+<img align="center" height="950" src="README/stories.png" alt="Stories"/>
 <h3 >Screen edit profile name</h3>
-<img height="480" src="README/profile.png" alt="Profile"/>
+<img align="center" height="950" src="README/profile.png" alt="Profile"/>
 <h3>Screen Payments</h3>
-<img height="300" src="README/payments.png" alt="Payments"/>
-<img height="300" src="README/transfer_many.png" alt="TransferMany"/>
+<img align="center" height="950" src="README/payments.png" alt="Payments"/>
+<img align="center" height="950" src="README/transfer_many.png" alt="TransferMany"/>
 <h3 >Screen Services</h3>
-<img height="480" src="README/services.png" alt="Services"/>
+<img align="center" height="950" src="README/services.png" alt="Services"/>
 <h3 >Screen Support</h3>
 <p> Chat with a bank employee.</p>
-<img height="480" src="README/support.png" alt="Support"/>
+<img align="center" height="950" src="README/support.png" alt="Support"/>
 <h3 >Screen More</h3>
 <p> Exchange rate received via API and tinkoff additional services.</p>
 <p>When you click on additional components, the transition to the pages of the site is implemented by tinkoff.</p>
-<img height="480" src="README/more.png" alt="More"/>
+<img align="center" height="950" src="README/more.png" alt="More"/>
 </p>
 
 
