@@ -50,9 +50,9 @@
 <img height="480" src="README/stories.png" alt="Stories"/>
 <h3 >Screen edit profile name</h3>
 <img height="480" src="README/profile.png" alt="Profile"/>
-<h3 >Screen Payments/h3>
-<img height="480" src="README/payments.png" alt="Payments"/>
-<img height="480" src="README/transfer_many.png" alt="TransferMany"/>
+<h3>Screen Payments</h3>
+<img height="300" src="README/payments.png" alt="Payments"/>
+<img height="300" src="README/transfer_many.png" alt="TransferMany"/>
 <h3 >Screen Services</h3>
 <img height="480" src="README/services.png" alt="Services"/>
 <h3 >Screen Support</h3>
