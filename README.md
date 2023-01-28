@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/viktorinasmi/Tinkoff_Clone">
-    <img src="README/logo_Tinkoff.png" alt="Logo" width="150" >
+    <img src="./README/logo_Tinkoff.png" alt="Logo" width="250" >
   </a>
 
 <h3 align="center">Tinkoff clone</h3>
@@ -42,15 +42,26 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p float="left" align="middle">
+<h3 >Screen Menu</h3>
 <img height="480" src="README/home.png" alt="homePage"/>
+<h4 >Add new products(credit card)</h4>
 <img height="480" src="README/apply_new_product.png" alt="applyNewProducts"/>
+<h4 >Component stories</h4>
 <img height="480" src="README/stories.png" alt="Stories"/>
+<h3 >Screen edit profile name</h3>
 <img height="480" src="README/profile.png" alt="Profile"/>
+<h3 >Screen Payments/h3>
 <img height="480" src="README/payments.png" alt="Payments"/>
-<img height="480" src="README/services.png" alt="Services"/>
-<img height="480" src="README/support.png" alt="Support"/>
-<img height="480" src="README/more.png" alt="More"/>
 <img height="480" src="README/transfer_many.png" alt="TransferMany"/>
+<h3 >Screen Services</h3>
+<img height="480" src="README/services.png" alt="Services"/>
+<h3 >Screen Support</h3>
+<p> Chat with a bank employee.</p>
+<img height="480" src="README/support.png" alt="Support"/>
+<h3 >Screen More</h3>
+<p> Exchange rate received via API and tinkoff additional services.</p>
+<p>When you click on additional components, the transition to the pages of the site is implemented by tinkoff.</p>
+<img height="480" src="README/more.png" alt="More"/>
 </p>
 
 
@@ -63,7 +74,11 @@ Frameworks and platform.
 * [![React][React.js]][React-url]
 * [![React-Native][React-Native.js]][React-Native-url]
 * ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
-
+* ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+* ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
+* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+* ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
 
 
